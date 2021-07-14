@@ -1,11 +1,11 @@
-name: NetCore Workspace CI
+name: DotNet Workspace CI
 
 on:
   push:
     branches: [ '*' ]
 
 env:
-  IMAGE_NAME: netcore-workspace-docker
+  IMAGE_NAME: dotnet-workspace-docker
   TAG: latest
 
 jobs:
